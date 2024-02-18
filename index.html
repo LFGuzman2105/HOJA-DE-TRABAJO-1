@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja de Trabajo No. 1</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="JS/script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+    </div>
+    <div class="row">
+        <form class="col s12">
+            <div class="row" id="Formulario">
+                <div class="input-field col s12">
+                    <i class="material-icons prefix">account_circle</i>
+                    <input id="Id" type="text" class="validate" minlength="1">
+                    <label for="Id">ID Personaje</label>
+                </div>
+                <button onclick="getData()" class="btn waves-effect waves-light" type="button" name="action">BUSCAR
+                    <i class="material-icons right">search</i>
+                </button>
+            </div>
+        </form>
+    </div>
+    <div id="Resultado"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
